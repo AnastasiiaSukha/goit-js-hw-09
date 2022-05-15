@@ -26,9 +26,9 @@ function onSubmintForm(event) {
   const amount = Number(formEl.amount.value);
   let delayStart = delay;
 
-  if (delayStart <= 0) {
-    return;
-  }
+  // if (delayStart <= 0) {
+  //   return;
+  
   for (let i = 0; i < amount; i += 1) {
     let countStart = i + 1;
   
