@@ -45,4 +45,5 @@ function onSubmintForm(event) {
         });
       delayStart += step;
     };
-  }
+}
+  
